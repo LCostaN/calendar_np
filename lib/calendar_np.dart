@@ -1,11 +1,11 @@
 library calendar_np;
 
-import 'package:calendar_np/event.dart';
+import 'package:calendar_np/event_np.dart';
 
 ///
-class CalendarNP {
+class CalendarNp {
   ///
-  List<Event> events;
+  List<EventNp> events;
 
-  CalendarNP(this.events);
+  CalendarNp(this.events);
 }
